@@ -15,3 +15,12 @@ def saveToDb(request, name):
 
 def index(request):
     return HttpResponse("<h2>You have reached the homepage</h2>")
+
+def login(request):
+    return HttpResponse("<h2>Login</h2>")
+
+def register(request):
+    return HttpResponse("<h2>Register</h2>")
+
+
+
